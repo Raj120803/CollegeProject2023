@@ -1,0 +1,69 @@
+/* src/components/BMRCalculator.css */
+
+.bodybmr{
+  background-image: url("./image/back.jpg");  
+  background-size: cover;
+  padding: 40px;
+  /* background: linear-gradient(rgb(0, 0, 0),rgb(97, 105, 108)); */
+}
+.bmr-calculator {
+    width: 600px;
+    /* text-decoration: underline; */
+    margin: auto ;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #e5db1e4b;
+    text-align: center;
+    /* height: 40%; */
+  }
+  
+  h4 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .wt{
+    /* display: block; */
+    color: rgb(61, 2, 121);
+    font-size: 25px;
+  /* margin-top: -30px; */
+    font-weight: bold;
+  }
+  .cover{
+    margin: 50px;
+  }
+  
+  .inpu {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: white;
+    background-color: black;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  

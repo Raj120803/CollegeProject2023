@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.fine{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	/* background: linear-gradient(to bottom, #322b6d, #302b63, #24243e); */
+background-image: url("./image/4722377.jpg");
+
+/* opacity:70%; */
+filter: blur(8px);
+	-webkit-filter: blur(8px);
+
+}
+.inputlogin{
+	margin-bottom: 5px;
+    margin-left: 40px;
+    width: 250px;
+    height: 39px;
+    border-radius: 21px;
+    text-align: center;
+	
+	
+}
+.inputlogin1{
+	margin-bottom: 5px;
+    margin-left: 75px;
+    width: 160px;
+    height: 39px;
+    border-radius: 21px;
+    text-align: center;
+	
+
+}
+
+.mainstuct{
+	width: 350px;
+	height: 500px;
+	/* background: rgb(77, 19, 19); */
+	overflow: hidden;
+	/* background: url("./image/4722377.jpg") no-repeat center/ cover; */
+	background-color: rgba(0, 0, 0, 0.559);
+	/* -webkit-backdrop-filter: blur(10px); */
+	/* -webkit-filter: blur(8px); */
+	/* backdrop-filter: blur(10px); */
+	border-radius: 10px;
+	/* position: relative; */
+	/* opacity: 70%; */
+	
+	/* opacity:unset; */
+	box-shadow: 5px 20px 50px #000;
+	position: absolute;
+	top: 20%;
+     
+}
+
+/* .signup::before{
+	content: "hello i am ankush";
+	color:red;
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.386);
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+
+
+} */
+
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 25px;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.inputlog{
+    width: 60%;
+    height: 34px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 9px auto;
+    padding: 11px;
+	text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.button1{
+	width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #5f30b4;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 36px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.button1:hover{
+	background: #681985;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+li{
+	margin-top: -12px;
+
+}
+.own{
+	display: flex;
+    height: 27px;
+    width: 130px;
+    text-align: center;
+    background-color: #e0dede;
+    border-radius: 15px;
+    color: #000000;
+    border: 2px solid white;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+li .own:hover{
+	background-color: black;
+	color: white;
+}
+li .own:active{
+	background-color: #5a97d4;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}

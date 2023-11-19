@@ -1,0 +1,276 @@
+.abt{
+    background-image: url("./image/b1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.social-menu ul {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+.content{
+    height: 85vh;
+    width: 40%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 20px;
+}
+.content h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.content p{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.Back1{
+font-size: 22px;
+padding: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{		
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+ } 
+.bodybmi{
+    background-color: #000000;
+    /* background-image: url("./image/bmi.jpg"); */
+    height: 100%;
+    width: 100%;
+}
+.BMI{
+    
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0,0,0,0.6);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px #585858;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.text{
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: -29px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+}
+#w, #h{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    outline: none;
+    margin-left: 135px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #341f97;
+    width: 200px;
+}
+    #w:focus, #h:focus{
+        border-bottom: 2px solid #341f97;
+        width: 300px;
+        margin-left: 80px;
+        text-align: center;
+        transition: 0.5s;
+        color: white;
+    }
+    #result{
+        color: #eeedf6;
+    }
+    #result button:hover{
+        background: #55acee;
+    }
+    #btn8{
+        font-family: inherit;
+        margin-top: 10px;
+        border: none;
+        font-size: 15px;
+        color: red;
+        background-color: white;
+        width: 150px;
+        padding: 10px;
+        border-radius: 30px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    #btn8:hover{
+    color:white;
+    background-color: #585858;
+    }
+    #info{
+        font-size: 12px;
+        font-family: inherit;
+        color: white;
+    }
+
+
+
+.logo img{
+margin-top: 2%;
+float: left;
+width: 150px;
+height: auto;
+}
+ul li.active a{
+background-color: white;
+color: black;
+}
+
+
+
+
+
+
+
+
+.form-control, .form-select, .card, .btn
+                {
+                    border-radius: 15px;
+                }
+
+                .form-control, .form-select
+                {
+                    background: none;
+                    color: #fff;
+                }
+
+                .form-select
+                {
+                    /* background-image: url("./image/bmi.jpg") !important; */
+                    background-repeat: no-repeat !important;
+                    background-position: right 0.75rem center !important;
+                    background-size: 16px 12px !important;
+                    /* background-color:; */
+                }
+
+                input[type=checkbox], input[type=radio]
+                {
+                    width: 23px;
+                    height: 23px;
+                    display: inline-block;
+                    top: 0;
+                    position: relative;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    border: 1px solid #ffffff;
+                    overflow: hidden;
+                }
+
+                input[type=checkbox]
+                {
+                    border-radius: 3px;
+                }
+
+                input[type=radio]
+                {
+                    border-radius: 100%;
+                }
+
+                input[type=checkbox]:checked, input[type=radio]:checked
+                {
+                    border: none;
+                }
+
+                input[type=checkbox]:checked:after, input[type=radio]:checked:after
+                {
+                    content: "\f00c";
+                    font-family: "Font Awesome 5 Pro";
+                    font-weight: 900;
+                    left: 0;
+                    position:absolute;
+                    top:0;
+                    font-size: 15px;
+                    color: #000;
+                    background: #ffffff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                }
+                main{
+	max-width: 1500px;
+	margin: auto;
+
+}
+.logo img{
+    margin-top: -5%;
+	float: left;
+	width: 150px;
+	height: auto;
+}
+

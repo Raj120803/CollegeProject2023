@@ -1,0 +1,161 @@
+.arms{
+	margin-top: 0%;
+	background-size: cover;
+	width: 100%;
+	height: 460px;
+}
+.arms h1{
+	position: absolute;
+	margin-top: -35px;
+	margin-left: 32%;
+	transform: translate(50%,-50%);
+	text-transform: uppercase;
+	font-family: verdana;
+	font-size: 35px;
+	font-weight: 700;
+	color: #f5f5f5;
+	text-shadow: 1px 1px 1px #919191,
+	1px 2px 1px #919191,
+	1px 3px 1px #919191,
+	1px 4px 1px #919191,
+	1px 5px 1px #919191,
+	1px 18px 6px rgba(16,16,16,0.4);
+	
+}
+.arms p{
+	position: absolute;
+	margin-left: 32%;
+	text-transform: uppercase;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color:	#585858;
+
+}
+
+.dumbbel{
+	width: 98%;
+	height: 380px;
+	margin-top: 6%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #000;
+	border-radius: 20px;
+
+	
+}
+.dumbbel iframe{
+	margin-top: 2%;
+	margin-left: 25px;
+}
+.dumbbel h1{
+	margin-left: 60%;
+	margin-top: -20%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+	transition: 0.4s ease;
+	text-decoration: underline;
+
+}
+.dumbbel h1:hover{
+	color: #585858;
+	font-size: 45px;
+}
+
+.dumbbel p{
+	margin-left: 45%;
+	margin-right: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	margin-top: 20px;
+}
+
+.wrist{
+	width: 98%;
+	height: 380px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #585858;
+	border-radius: 20px;
+
+	
+}
+.wrist iframe{
+	margin-top: 2%;
+	margin-left: 25px;
+}
+.wrist h1{
+	margin-left: 60%;
+	margin-top: -20%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+	transition: 0.4s ease;
+	text-decoration: underline;
+
+}
+.wrist h1:hover{
+	color: #000;
+	font-size: 45px;
+}
+
+.wrist p{
+	margin-left: 45%;
+	margin-right: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	margin-top: 20px;
+}
+
+.cable{
+	width: 98%;
+	height: 380px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #000;
+	border-radius: 20px;
+    margin-bottom: 15px;
+
+	
+}
+.cable iframe{
+	margin-top: 2%;
+	margin-left: 25px;
+}
+.cable h1{
+	margin-left: 55%;
+	margin-top: -20%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+	transition: 0.4s ease;
+	text-decoration: underline;
+
+}
+.cable h1:hover{
+	color: #585858;
+	font-size: 45px;
+}
+
+.cable p{
+	margin-left: 45%;
+	margin-right: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	margin-top: 20px;
+}

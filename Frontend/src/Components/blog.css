@@ -1,0 +1,200 @@
+.para{
+    	/* margin-top: 2.5%; */
+	background-size: 100% 100%;
+	width: 80%;
+	background-position: center;
+	height: 120vh;
+	margin-left: 10%;
+}
+.para p{
+		
+	margin-left: 2%;
+	margin-right: 5%;
+	text-transform: uppercase;
+	font-family: verdana;
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color:	#585858;
+	word-spacing: normal;
+}
+.yash{
+	
+	width: 98%;
+	height: 450px;
+	margin-top: 25%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #303030;
+	border-radius: 20px;
+}
+.yash img{
+	width: 300px;
+	height: 60vh;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 25px;
+}
+.yash h1{
+	margin-left: 45%;
+	margin-top: -25%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+	
+}
+.yash p{
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 50px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+.anand{
+	width: 98%;
+	height: 450px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #585858;
+	border-radius: 20px;
+}
+.anand img{
+	width: 300px;
+	height: 60vh;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 25px;
+}
+.anand h1{
+	margin-left: 50%;
+	margin-top: -25%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+}
+.anand p{
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+.jeet{
+	width: 98%;
+	height: 450px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #303030;
+	border-radius: 20px;
+}
+.jeet img{
+	width: 300px;
+	height: 60vh;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 25px;
+}
+.jeet h1{
+	margin-left: 50%;
+	margin-top: -25%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+}
+.jeet p{
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+.mukesh{
+		width: 98%;
+	height: 450px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #585858;
+	border-radius: 20px;
+}
+.mukesh img{
+	width: 300px;
+	height: 60vh;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 25px;
+}
+.mukesh h1{
+     margin-left: 32%;
+	margin-top: -25%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+}
+.mukesh p{
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+.gaurav{
+	width: 98%;
+	height: 400px;
+	margin-top: 2%;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	background-color: #303030;
+	border-radius: 20px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+.gaurav img{
+	width: 300px;
+	height: 55vh;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 25px;
+}
+.gaurav h1{
+	    margin-left: 42%;
+	margin-top: -25%;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+	cursor: pointer;
+	font-size: 40px;
+	
+}
+.gaurav p{
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 50px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: verdana;
+}
